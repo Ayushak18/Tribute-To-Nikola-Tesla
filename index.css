@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+.no-margin{
+    font-size: 0;
+}
+
+header{
+    box-shadow: inset 5px 5px 20px 5px rgb(252, 91, 91), inset -5px -5px 20px 5px rgb(252, 91, 91);
+
+    text-align: center;
+    font-size: 28px;
+    /* background-color: green; */
+    background-color: rgb(253, 154, 154);
+    padding: 5px 0;
+    border: black solid 2px;
+    /* margin: 1px; */
+}
+
+h1{
+    margin: 0;
+}
+
+
+.main-div-one{
+    /* background-color: red; */
+    font-size: 20px;
+}
+
+.small-div-one , .small-div-two{
+    display: inline-block;
+}
+
+.small-div-one{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.small-div-two{
+    width: 50%;
+    /* background-color: blue; */
+}
+
+img {
+    width: 100%;
+    height:100%;
+    border-left: solid black 1px;
+}
+
+a{
+    margin:0 2px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    line-height: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(253, 154, 154);
+    padding: 5px 0;
+    border: black solid 2px;
+    box-shadow: inset 5px 5px 20px 5px rgb(252, 81, 81), inset -5px -5px 20px 5px rgb(252, 81, 81);
+
+}
+
+.color-one{
+    box-shadow: inset 10px 10px 100px 10px rgb(51, 146, 255), inset -10px -10px 100px 10px rgb(51, 146, 255);
+    background-color: rgb(140, 194, 255);
+    height: 100%;
+}
+
+.color-two{
+    box-shadow: inset 10px 10px 100px 10px rgb(100, 116, 255), inset -10px -10px 100px 10px rgb(100, 116, 255);
+    background-color: rgb(140, 151, 255);
+    height: 100%;
+}
+
+.color-three{
+    box-shadow: inset 10px 10px 100px 10px rgb(40, 199, 125), inset -10px -10px 100px 10px rgb(40, 199, 125);
+    background-color: rgb(140, 255, 201);
+    height: 100%;
+}
+
+.color-four{
+    box-shadow: inset 10px 10px 100px 10px rgb(253, 203, 65), inset -10px -10px 100px 10px rgb(253, 203, 65);
+    background-color: rgb(255, 224, 140);
+    height: 100%;
+}
+
+.left
+{
+    text-align: left;
+}
+
+footer a {
+    margin: 0 10px ;
+    text-align: left;
+    font-size: 15px;
+}
